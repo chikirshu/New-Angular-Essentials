@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+label{
+  margin-right:10px;
+}
+
+input{
+  margin-right:30px;
+}
+
+button{
+  margin-left:50px;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid red;
+}

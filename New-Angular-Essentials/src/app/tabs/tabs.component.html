@@ -1,0 +1,32 @@
+<div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item" >
+      <!-- <a class="nav-link active"
+        (click)="onChoose('All')"
+        style="cursor: pointer"
+        [ngClass]="{active: chosenList === 'All'}">All
+      </a> -->
+      <a class="nav-link" routerLink="/items/All" routerLinkActive="active">All</a>
+    </li>
+    <li class="nav-item" >
+      <!-- <a class="nav-link"
+        (click)="onChoose('Fruit')"
+        style="cursor: pointer"
+        [ngClass]="{active: chosenList === 'Fruit'}">Fruit
+      </a> -->
+      <a class="nav-link" routerLink="/items/Fruit" routerLinkActive="active">Fruit</a>
+    </li>
+    <li class="nav-item" >
+      <!-- <a class="nav-link"
+        (click)="onChoose('Vegetable')"
+        style="cursor: pointer"
+        [ngClass]="{active: chosenList === 'Vegetable'}">Vegetable
+      </a> -->
+      <a class="nav-link" routerLink="/items/Vegetable" routerLinkActive="active">Vegetable</a>
+    </li>
+  </ul>
+  <!-- <app-list [items] = "getItems()" (sideAssigned)="onSideChosen($event)"></app-list> -->
+  <!-- <app-list [items] = "getItems()"></app-list> -->
+  <router-outlet></router-outlet>
+
+</div>
