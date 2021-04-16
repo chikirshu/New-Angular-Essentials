@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-     // this.fvService.fetchItems();
+    // uncomment below to fetch api results
+    // this.fvService.fetchItems();
   }
 }
